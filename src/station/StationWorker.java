@@ -35,6 +35,11 @@ public class StationWorker {
         }
     }
 
+    /**
+     * Count maximum amount we can earn
+     * @param trains list of trains
+     * @return maximum amount
+     */
     static public int countMaxSum(Train[] trains) {
         ArrayList<Event> events = new ArrayList<>();
         for (int i = 0; i < trains.length; ++i) {
